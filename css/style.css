@@ -4,6 +4,18 @@
     border:0;
     box-sizing:border-box;
     list-style-type:none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
 }
 
 .shadow{
@@ -16,6 +28,18 @@
     background:rgba(0,0,0,0.7);
     padding:50px;
     display:none;
+}
+
+.shadowBox{
+    width: 150px !important;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.shadowBox img{
+    width: 100%;
 }
 
 .shadow .close-box{

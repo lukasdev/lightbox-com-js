@@ -3,13 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Shadow</title>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <a href="images/01.jpg" title="Minha imagem 1" class="shadowBox">img1</a>
-    <a href="images/02.jpg" title="Minha imagem dois" class="shadowBox">img2</a>
+	<h1>Efeitos</h1>
 
-    <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="shadow.js"></script>
+	<p>SHOW</p>
+    <a href="images/steve.jpg" title="Minha imagem 1" data-effect="show" class="shadowBox">
+    	<img src="images/steve.jpg">
+    </a>
+    
+
+    <p>FadeIn</p>
+
+    <a href="images/outra.jpg" title="Minha imagem dois" data-effect="fadeIn" class="shadowBox">
+        <img src="images/outra.jpg">
+    </a>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/shadow.js"></script>
 </body>
 </html>
